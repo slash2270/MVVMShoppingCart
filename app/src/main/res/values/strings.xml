@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVVMShoppingCart</string>
+    <string name="count">數量:</string>
+    <string name="brand">Samsung S21</string>
+    <string name="display">6.2吋螢幕</string>
+    <string name="money">$27,000</string>
+    <string name="buy">購買</string>
+</resources>
