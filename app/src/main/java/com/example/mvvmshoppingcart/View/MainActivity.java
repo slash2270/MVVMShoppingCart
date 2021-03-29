@@ -18,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        binding = DataBindingUtil.setContentView(this, R.layout.main_activity);
 
         viewModel = new MainViewModel(this);
 
-        binding = DataBindingUtil.setContentView(this, R.layout.main_activity);
         binding.setViewModel(viewModel);
     }
 }
